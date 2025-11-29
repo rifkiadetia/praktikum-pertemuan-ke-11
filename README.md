@@ -15,22 +15,3 @@ Fitur:
 - ubah(nama): mengubah data berdasarkan nama
 
 # Flowchart 
-[Mulai]
-   |
-   v
-[Tampilkan Menu]
-   |
-   v
-+-------------------------------+
-| Pilih: 1 2 3 4 5              |
-+-------------------------------+
-   |   |    |    |    |
-   |   |    |    |    +--> (5) Keluar -> [Selesai]
-   |   |    |    |
-   |   |    |    +--> (4) Input nama -> Ubah(nama) -> Kembali ke Menu
-   |   |    |
-   |   |    +--> (3) Input nama -> Hapus(nama) -> Kembali ke Menu
-   |   |
-   |   +--> (2) Input data -> Tambah() -> Kembali ke Menu
-   |
-   +--> (1) Tampilkan() -> Kembali ke Menu
